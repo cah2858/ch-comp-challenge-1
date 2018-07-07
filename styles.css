@@ -1,0 +1,45 @@
+body {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.intro {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+#profile {
+  grid-column-start: 3;
+}
+
+#experience {
+  grid-row-start: 2;
+}
+
+#education {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#blog {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+#social {
+  grid-row-start: 3;
+}
+
+#contact {
+grid-row: 3;
+grid-column: 2;
+}
+
+#portfolio {
+grid-row: 3;
+grid-column: 3;
+}
+
+
+
