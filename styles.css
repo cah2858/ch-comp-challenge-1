@@ -1,7 +1,27 @@
 body {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-family: sans-serif;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: .65em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: #FFFFFF;
 }
 
 .intro {
@@ -41,5 +61,32 @@ grid-row: 3;
 grid-column: 3;
 }
 
+svg {
+  display: block;
+  margin: auto;
+  fill: rgb(255, 255, 255);
+}
 
+.dark {
+  background-color: #5DA2D5;
+}
 
+.light {
+  background-color: #90CCF4;
+}
+
+.yellow {
+  background-color: #F3D250;
+}
+
+.coral {
+  background-color: #F78888;
+}
+
+button {
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+}
