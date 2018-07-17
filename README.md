@@ -5,4 +5,5 @@ The static comp challenge is a series of three challenges to keep you working th
 ![alt text](http://tinypic.com/r/9ql15f/9)
 
 
-![alt text](http://tinypic.com/r/seoppd/9)
+![Comp](ch-comp-challenge-1/images/Screen Shot 2018-07-16 at 22.22.40.png)
+
